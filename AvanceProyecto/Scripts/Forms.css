@@ -1,0 +1,105 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para formularios */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para encabezados de nivel 2 */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para inputs de texto, password y select */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para contenedores de botones */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para botones */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+/* Estilos para mensajes */
+.message {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+}
+
+/* Estilos específicos para el formulario de agregar enfermedades */
+#form1 {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+    #form1 label {
+        color: #333333; /* Cambiar el color del texto de las etiquetas */
+    }
+
+    #form1 input[type="text"],
+    #form1 textarea,
+    #form1 select {
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+    }
+
+    #form1 .btn-primary {
+        margin-top: 10px !important;
+        background-color: #007bff; /* Cambiar el color de fondo del botón principal */
+        border-color: #007bff;
+        color: #ffffff; /* Cambiar el color del texto del botón principal */
+    }
+
+        #form1 .btn-primary:hover {
+            background-color: #0056b3; /* Cambiar el color de fondo del botón principal al pasar el mouse */
+        }

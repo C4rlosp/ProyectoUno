@@ -1,0 +1,126 @@
+﻿body {
+}
+/* Estilos para el GridView */
+#GridViewPacientes {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #GridViewPacientes th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #GridViewPacientes td {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #GridViewPacientes tr:hover {
+        background-color: #f2f2f2;
+    }
+
+/* Estilos para el botón Volver */
+#btnVolver {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilos para el GridViewMedicos */
+#GridViewMedicos {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #GridViewMedicos th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #GridViewMedicos td {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #GridViewMedicos tr:hover {
+        background-color: #f2f2f2;
+    }
+
+/* Estilos para el GridViewMedicamentos */
+#GridViewMedicamentos {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #GridViewMedicamentos th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #GridViewMedicamentos td {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #GridViewMedicamentos tr:hover {
+        background-color: #f2f2f2;
+    }
+
+/* Estilos para el GridViewEnfermedades */
+#GridViewEnfermedades {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #GridViewEnfermedades th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #GridViewEnfermedades td {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #GridViewEnfermedades tr:hover {
+        background-color: #f2f2f2;
+    }
+
+/* Estilos para el GridViewCitasAtendidas */
+#GridViewCitasAtendidas {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #GridViewCitasAtendidas th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #GridViewCitasAtendidas td {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #GridViewCitasAtendidas tr:hover {
+        background-color: #f2f2f2;
+    }
